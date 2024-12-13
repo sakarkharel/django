@@ -38,6 +38,5 @@ def signup(request):
 
 @login_required
 def user_logout(request):
-
     logout(request)  # Log the user out
-    return redirect('core:logout')
+    return redirect('/')

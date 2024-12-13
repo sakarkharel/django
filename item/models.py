@@ -10,9 +10,6 @@ class Category(models.Model):
     
     def __str__(self):
         return self.name
-    
-
-
 
     @staticmethod
     def create_default_categories():
