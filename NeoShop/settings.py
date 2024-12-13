@@ -76,13 +76,12 @@ WSGI_APPLICATION = 'NeoShop.wsgi.application'
 
 
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'passionfruit',
-        'USER': 'brakefluid',
-        'PASSWORD': 'sedan123',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '12345',
         'HOST': 'localhost',  # Or your database host
         'PORT': '5432',       # Default PostgreSQL port
     }
